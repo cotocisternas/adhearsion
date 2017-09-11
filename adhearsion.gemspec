@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'http', ["~> 0.9.8"] # Pin back so Reel doesn't break
   s.add_runtime_dependency 'i18n', ["~> 0.6"]
   s.add_runtime_dependency 'logging', ["~> 2.0"]
-  s.add_runtime_dependency 'nokogiri', ["~> 1.8"]
+  s.add_runtime_dependency 'nokogiri', ["<= 1.6.1", ">= 1.5.6", "~> 1.5"]
   s.add_runtime_dependency 'pry'
   s.add_runtime_dependency 'rake'
   s.add_runtime_dependency 'reel', ["~> 0.5.0"]
